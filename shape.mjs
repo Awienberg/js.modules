@@ -54,24 +54,24 @@ const Circle = {
         this.x += this.dx;
         this.y += this.dy;
 
-        if(this.x < 25){ //venstre øverste hjørne
+        if(this.x < 25){ 
             this.x = 25;
             this.dx = 0;
             this.dy = 3;
             this.color = 'green';
 
-        }else if(this.x > this.canvas.getWidth() - 25){ //nederste højre hjørne
+        }else if(this.x > this.canvas.getWidth() - 25){
             this.x = this.canvas.getWidth() - 25;
             this.dy = -3;
             this.dx = 0;
             this.color = 'orange';
         
-        }else if(this.y < 25){ //højre øverste hjørne
+        }else if(this.y < 25){ 
             this.dy = 0;
             this.dx = -3;
             this.color = 'yellow';
         
-        }else if (this.y > this.canvas.getHeight() - 25) {  // nederste venstre hjørne
+        }else if (this.y > this.canvas.getHeight() - 25) {  
             this.dy = 0;
             this.dx = 3;
             this.color = 'red';
