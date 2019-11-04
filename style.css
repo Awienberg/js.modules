@@ -1,0 +1,21 @@
+  body {
+    background-color:  #202020;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width : 100%;
+    margin: 0px;
+  }
+  
+  .wrapper {
+      margin: 50px;
+      clear: both;
+    }
+    
+  h1 {
+      font-size: 30px;
+        color: #fff;
+  }
+  
+  p {
+    color: #fff;
+  }
